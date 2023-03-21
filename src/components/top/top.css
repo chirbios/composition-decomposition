@@ -1,0 +1,48 @@
+.top-block span {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .top-block {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .top-block > div {
+    margin: 10px;
+    min-height: 100px;
+  }
+  .top-block-news {
+    width: 75%;
+  }
+  .top-block-news-links li {
+    margin: 10px 0;
+  }
+  .top-block-news-links li a {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #111111;
+  }
+  .top-block-news-links img {
+    width: 15px;
+    height: 15px;
+  }
+  .top-block-news-currencies span a {
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #111111;
+  }
+  
+  .top-block-adv {
+    width: 25%;
+    text-align: center;
+  }
+  .top-block-adv p {
+    font-size: 0.9em;
+  }
+  .top-block-adv img {
+    width: 100px;
+  }
+  
